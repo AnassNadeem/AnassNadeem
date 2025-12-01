@@ -12,7 +12,7 @@
 
 ---
 
-✋ I'm looking for help with:<br>Securing a Data Science, Automation, Applied RL, or AI Research Engineering internship to <br>transition my experience with cutting-edge, research-level frameworks into a commercial setting.
+✋ I'm looking for help with:<br>Securing a Data Science, Automation, Applied RL, or AI Research Engineering internship to transition my experience with cutting-edge, research-level frameworks into a commercial setting.
 
 ---
 
