@@ -42,4 +42,4 @@ I am currently in the **Foundational Research Phase** of building **NeuroSim**, 
 ### 🌐 Connect with me:
 * **LinkedIn:** [linkedin.com/in/MuhammadAnasNadeem](https://linkedin.com/in/MuhammadAnasNadeem)
 * **Email:** [anass.nadeem42@gmail.com](mailto:anass.nadeem42@gmail.com)
-* **Portfolio:** *Building UDX & Electech (Coming Soon)*
+* **Portfolio:** 
