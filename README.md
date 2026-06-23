@@ -1,37 +1,17 @@
-<!-- ═══════════════════════════════════════════════════════
+<!-- ══════════════════════════════════════════════════════════════
      MUHAMMAD ANAS NADEEM · PROFILE README
-     Commit both README.md and assets/race-strip.svg
-     Place race-strip.svg at: assets/race-strip.svg
-     ═══════════════════════════════════════════════════════ -->
+     Repo structure required:
+       README.md
+       assets/header.svg
+       assets/race-strip.svg
+       assets/timing.svg
+     ══════════════════════════════════════════════════════════════ -->
 
-<!-- ── HEADER ── -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=200&color=0D0D0D&text=MUHAMMAD%20ANAS%20NADEEM&fontColor=FAFAF8&fontSize=36&fontAlignY=42&fontFamily=JetBrains%20Mono&desc=Computer%20Science%20%C2%B7%20AI%20Systems%20%C2%B7%20Physical%20AI%20%C2%B7%20Brunel%20University%20London&descAlignY=65&descSize=13&descColor=888884"/>
-
-<!-- ── ANIMATED RACE STRIP ──
-     This SVG file must be committed to your repo at: assets/race-strip.svg
-     The car drives left-to-right with sector flash markers -->
+<img width="100%" src="./assets/header.svg" alt="Muhammad Anas Nadeem"/>
 <img width="100%" src="./assets/race-strip.svg" alt="race strip"/>
+<img width="100%" src="./assets/timing.svg" alt="timing board"/>
 
 <br/>
-
-<!-- ── TIMING BOARD ── -->
-<table width="100%">
-<tr>
-<td align="center" width="33%" style="background-color:#0D0D0D;padding:16px 0;border:1px solid #1E1E1E;">
-<sub><kbd>STATUS</kbd></sub><br/>
-<b><span style="color:#E8002D;">SEEKING&nbsp;PLACEMENT</span></b>
-</td>
-<td align="center" width="34%" style="background-color:#0D0D0D;padding:16px 0;border:1px solid #1E1E1E;">
-<sub><kbd>CURRENT BUILD</kbd></sub><br/>
-<b style="color:#FAFAF8;">ARIS &middot; F1 STRATEGY AI</b>
-</td>
-<td align="center" width="33%" style="background-color:#0D0D0D;padding:16px 0;border:1px solid #1E1E1E;">
-<sub><kbd>LOCATION</kbd></sub><br/>
-<b style="color:#FAFAF8;">LONDON,&nbsp;UK</b>
-</td>
-</tr>
-</table>
-
 <br/>
 
 ---
@@ -39,14 +19,19 @@
 ## `// 01` &nbsp; COMPETITION RECORD
 
 <table width="100%">
-<tr style="background-color:#0D0D0D;">
-<td width="48" align="center"><b style="color:#E8002D;font-size:22px;">P1</b></td>
-<td>
+<tr>
+<td width="52" align="center" style="background-color:#0D0D0D;padding:20px 12px;border:1px solid #1E1E1E;">
+<b style="color:#E8002D;font-size:20px;font-family:monospace;">P1</b>
+</td>
+<td style="background-color:#0D0D0D;padding:16px 20px;border:1px solid #1E1E1E;">
 <b>Oxford Physical AI Hackathon</b><br/>
-<sub>Oxford AI Society &middot; Track 2 &middot; SO-101 + Amazing Hands &middot; Neuracore Stack</sub><br/><br/>
+<sub style="color:#888884;">Oxford AI Society &nbsp;&middot;&nbsp; Track 2 &nbsp;&middot;&nbsp; SO-101 + Amazing Hands &nbsp;&middot;&nbsp; Neuracore Stack</sub>
+<br/><br/>
 Only team to assemble the Amazing Hand hardware end-to-end. Shipped three live demos in 24 hours — real-time hand mirroring via imitation learning, sign language recognition, and a Meta Quest VR control interface.
 </td>
-<td width="80" align="center"><kbd>WINNER</kbd></td>
+<td width="90" align="center" style="background-color:#0D0D0D;padding:20px 12px;border:1px solid #1E1E1E;">
+<code>WINNER</code>
+</td>
 </tr>
 </table>
 
@@ -59,7 +44,7 @@ Only team to assemble the Amazing Hand hardware end-to-end. Shipped three live d
 > Adaptive Race Intelligence System — a physics-grounded, ML-augmented F1 strategy engine that evaluates pit decisions per tick using Monte Carlo confidence intervals and narrates the optimal call with a quantified lap-time delta.
 
 ```
-PIPELINE ──────────────────────────────────────────────────────────────────
+PIPELINE ───────────────────────────────────────────────────────────────────
   FastF1 Ingest → PostgreSQL → Bicycle Model + Tyre Degradation + Fuel Burn
                                           ↓
                                XGBoost ML Residual
@@ -71,7 +56,7 @@ PIPELINE ───────────────────────�
          delta · CI · pit window            radio-call format
                               ↘                    ↙
                            Streamlit Dashboard
-────────────────────────────────────────────────────────────────────────────
+─────────────────────────────────────────────────────────────────────────────
 ```
 
 | Phase | Scope | Status |
@@ -98,7 +83,7 @@ PIPELINE ───────────────────────�
 **AI &middot; ML &middot; Simulation**
 
 ![PyTorch](https://img.shields.io/badge/PyTorch-0D0D0D?style=flat-square&logo=pytorch&logoColor=FAFAF8)
-![scikit&#8209;learn](https://img.shields.io/badge/scikit--learn-0D0D0D?style=flat-square&logo=scikit-learn&logoColor=FAFAF8)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-0D0D0D?style=flat-square&logo=scikit-learn&logoColor=FAFAF8)
 ![XGBoost](https://img.shields.io/badge/XGBoost-0D0D0D?style=flat-square&logo=xgboost&logoColor=FAFAF8)
 ![NumPy](https://img.shields.io/badge/NumPy-0D0D0D?style=flat-square&logo=numpy&logoColor=FAFAF8)
 ![Pandas](https://img.shields.io/badge/Pandas-0D0D0D?style=flat-square&logo=pandas&logoColor=FAFAF8)
@@ -162,5 +147,4 @@ status = {
 
 </div>
 
-<!-- ── RED CLOSING STRIPE ── -->
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=4&color=E8002D"/>

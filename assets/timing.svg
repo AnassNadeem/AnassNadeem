@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="76" viewBox="0 0 860 76">
+
+  <!-- overall background -->
+  <rect width="860" height="76" fill="#0D0D0D"/>
+
+  <!-- cell dividers -->
+  <line x1="287" y1="0" x2="287" y2="76" stroke="#1E1E1E" stroke-width="1"/>
+  <line x1="573" y1="0" x2="573" y2="76" stroke="#1E1E1E" stroke-width="1"/>
+
+  <!-- outer border -->
+  <rect x="0.5" y="0.5" width="859" height="75" fill="none" stroke="#1E1E1E" stroke-width="1"/>
+
+  <!-- red accent top bars per cell -->
+  <rect x="113" y="0" width="60" height="2" fill="#E8002D" opacity="0.7"/>
+  <rect x="400" y="0" width="60" height="2" fill="#E8002D" opacity="0.4"/>
+  <rect x="686" y="0" width="60" height="2" fill="#E8002D" opacity="0.4"/>
+
+  <!-- CELL 1: STATUS -->
+  <text x="143" y="26" text-anchor="middle"
+    font-family="'Courier New', Courier, monospace"
+    font-size="9" letter-spacing="3" fill="#555" font-weight="400">STATUS</text>
+  <text x="143" y="53" text-anchor="middle"
+    font-family="'Courier New', Courier, monospace"
+    font-size="16" letter-spacing="1" fill="#E8002D" font-weight="700">SEEKING PLACEMENT</text>
+
+  <!-- CELL 2: CURRENT BUILD -->
+  <text x="430" y="26" text-anchor="middle"
+    font-family="'Courier New', Courier, monospace"
+    font-size="9" letter-spacing="3" fill="#555" font-weight="400">CURRENT BUILD</text>
+  <text x="430" y="50" text-anchor="middle"
+    font-family="'Courier New', Courier, monospace"
+    font-size="15" letter-spacing="1" fill="#FAFAF8" font-weight="700">ARIS · F1 STRATEGY AI</text>
+
+  <!-- CELL 3: LOCATION -->
+  <text x="716" y="26" text-anchor="middle"
+    font-family="'Courier New', Courier, monospace"
+    font-size="9" letter-spacing="3" fill="#555" font-weight="400">LOCATION</text>
+  <text x="716" y="53" text-anchor="middle"
+    font-family="'Courier New', Courier, monospace"
+    font-size="16" letter-spacing="1" fill="#FAFAF8" font-weight="700">LONDON, UK</text>
+
+</svg>
