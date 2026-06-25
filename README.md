@@ -21,7 +21,7 @@
 <table width="100%">
 <tr>
 <td width="52" align="center" style="background-color:#0D0D0D;padding:20px 12px;border:1px solid #1E1E1E;">
-<b style="color:#E8002D;font-size:20px;font-family:monospace;">P1</b>
+<b style="color:#E8002D;font-size:20px;font-family:monospace;">01</b>
 </td>
 <td style="background-color:#0D0D0D;padding:16px 20px;border:1px solid #1E1E1E;">
 <b>Oxford Physical AI Hackathon</b><br/>
@@ -29,8 +29,27 @@
 <br/><br/>
 Only team to assemble the Amazing Hand hardware end-to-end. Shipped three live demos in 24 hours — real-time hand mirroring via imitation learning, sign language recognition, and a Meta Quest VR control interface.
 </td>
-<td width="90" align="center" style="background-color:#0D0D0D;padding:20px 12px;border:1px solid #1E1E1E;">
-<code>WINNER</code>
+</tr>
+<tr>
+<td width="52" align="center" style="background-color:#0D0D0D;padding:20px 12px;border:1px solid #1E1E1E;">
+<b style="color:#E8002D;font-size:20px;font-family:monospace;">02</b>
+</td>
+<td style="background-color:#0D0D0D;padding:16px 20px;border:1px solid #1E1E1E;">
+<b>Patient Continuity in Crisis Zones</b><br/>
+<sub style="color:#888884;">Imperial College London &nbsp;&middot;&nbsp; Crisis Zones Hackathon</sub>
+<br/><br/>
+Built a centralised hospital system for conflict regions with biometric patient matching via face-to-vector embeddings — no raw image storage. Offline-first architecture with local caching for degraded and unstable networks.
+</td>
+</tr>
+<tr>
+<td width="52" align="center" style="background-color:#0D0D0D;padding:20px 12px;border:1px solid #1E1E1E;">
+<b style="color:#E8002D;font-size:20px;font-family:monospace;">03</b>
+</td>
+<td style="background-color:#0D0D0D;padding:16px 20px;border:1px solid #1E1E1E;">
+<b><a href="https://github.com/alvisk/encode-spoonOS">AssertionOS</a></b><br/>
+<sub style="color:#888884;">Encode &nbsp;&middot;&nbsp; SpoonOS Hackathon</sub>
+<br/><br/>
+AI-powered multi-chain wallet security agent with real-time threat detection for DeFi. Built the on-chain reasoning module and tool-use integration layer.
 </td>
 </tr>
 </table>
@@ -72,38 +91,48 @@ PIPELINE ───────────────────────�
 
 ## `// 03` &nbsp; TECH STACK
 
+<div align="center">
+
 **Languages**
 
-![Python](https://img.shields.io/badge/Python-0D0D0D?style=flat-square&logo=python&logoColor=E8002D)
-![Java](https://img.shields.io/badge/Java-0D0D0D?style=flat-square&logo=openjdk&logoColor=E8002D)
-![C](https://img.shields.io/badge/C-0D0D0D?style=flat-square&logo=c&logoColor=E8002D)
-![SQL](https://img.shields.io/badge/SQL-0D0D0D?style=flat-square&logo=postgresql&logoColor=E8002D)
-![JavaScript](https://img.shields.io/badge/JavaScript-0D0D0D?style=flat-square&logo=javascript&logoColor=E8002D)
+![Python](https://img.shields.io/badge/Python-0D0D0D?style=for-the-badge&logo=python&logoColor=E8002D)
+![Java](https://img.shields.io/badge/Java-0D0D0D?style=for-the-badge&logo=openjdk&logoColor=E8002D)
+![C](https://img.shields.io/badge/C-0D0D0D?style=for-the-badge&logo=c&logoColor=E8002D)
+![SQL](https://img.shields.io/badge/SQL-0D0D0D?style=for-the-badge&logo=postgresql&logoColor=E8002D)
+![JavaScript](https://img.shields.io/badge/JavaScript-0D0D0D?style=for-the-badge&logo=javascript&logoColor=E8002D)
+
+<br/>
 
 **AI &middot; ML &middot; Simulation**
 
-![PyTorch](https://img.shields.io/badge/PyTorch-0D0D0D?style=flat-square&logo=pytorch&logoColor=FAFAF8)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-0D0D0D?style=flat-square&logo=scikit-learn&logoColor=FAFAF8)
-![XGBoost](https://img.shields.io/badge/XGBoost-0D0D0D?style=flat-square&logo=xgboost&logoColor=FAFAF8)
-![NumPy](https://img.shields.io/badge/NumPy-0D0D0D?style=flat-square&logo=numpy&logoColor=FAFAF8)
-![Pandas](https://img.shields.io/badge/Pandas-0D0D0D?style=flat-square&logo=pandas&logoColor=FAFAF8)
-![FastF1](https://img.shields.io/badge/FastF1-0D0D0D?style=flat-square&logo=formula1&logoColor=FAFAF8)
+![PyTorch](https://img.shields.io/badge/PyTorch-0D0D0D?style=for-the-badge&logo=pytorch&logoColor=FAFAF8)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-0D0D0D?style=for-the-badge&logo=scikit-learn&logoColor=FAFAF8)
+![XGBoost](https://img.shields.io/badge/XGBoost-0D0D0D?style=for-the-badge&logo=xgboost&logoColor=FAFAF8)
+![NumPy](https://img.shields.io/badge/NumPy-0D0D0D?style=for-the-badge&logo=numpy&logoColor=FAFAF8)
+![Pandas](https://img.shields.io/badge/Pandas-0D0D0D?style=for-the-badge&logo=pandas&logoColor=FAFAF8)
+![FastF1](https://img.shields.io/badge/FastF1-0D0D0D?style=for-the-badge&logo=formula1&logoColor=FAFAF8)
+
+<br/>
 
 **Infrastructure &middot; DevOps**
 
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0D0D0D?style=flat-square&logo=postgresql&logoColor=888884)
-![Docker](https://img.shields.io/badge/Docker-0D0D0D?style=flat-square&logo=docker&logoColor=888884)
-![Streamlit](https://img.shields.io/badge/Streamlit-0D0D0D?style=flat-square&logo=streamlit&logoColor=888884)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-0D0D0D?style=flat-square&logo=github-actions&logoColor=888884)
-![Linux](https://img.shields.io/badge/Linux-0D0D0D?style=flat-square&logo=linux&logoColor=888884)
-![Git](https://img.shields.io/badge/Git-0D0D0D?style=flat-square&logo=git&logoColor=888884)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0D0D0D?style=for-the-badge&logo=postgresql&logoColor=888884)
+![Docker](https://img.shields.io/badge/Docker-0D0D0D?style=for-the-badge&logo=docker&logoColor=888884)
+![Streamlit](https://img.shields.io/badge/Streamlit-0D0D0D?style=for-the-badge&logo=streamlit&logoColor=888884)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-0D0D0D?style=for-the-badge&logo=github-actions&logoColor=888884)
+![Linux](https://img.shields.io/badge/Linux-0D0D0D?style=for-the-badge&logo=linux&logoColor=888884)
+![Git](https://img.shields.io/badge/Git-0D0D0D?style=for-the-badge&logo=git&logoColor=888884)
+
+<br/>
 
 **Physical AI &middot; Hardware**
 
-![ROS](https://img.shields.io/badge/ROS-0D0D0D?style=flat-square&logo=ros&logoColor=FAFAF8)
-![Arduino](https://img.shields.io/badge/Arduino-0D0D0D?style=flat-square&logo=arduino&logoColor=FAFAF8)
-![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-0D0D0D?style=flat-square&logo=raspberry-pi&logoColor=FAFAF8)
-![CUDA](https://img.shields.io/badge/CUDA-0D0D0D?style=flat-square&logo=nvidia&logoColor=FAFAF8)
+![ROS](https://img.shields.io/badge/ROS-0D0D0D?style=for-the-badge&logo=ros&logoColor=FAFAF8)
+![Arduino](https://img.shields.io/badge/Arduino-0D0D0D?style=for-the-badge&logo=arduino&logoColor=FAFAF8)
+![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-0D0D0D?style=for-the-badge&logo=raspberry-pi&logoColor=FAFAF8)
+![CUDA](https://img.shields.io/badge/CUDA-0D0D0D?style=for-the-badge&logo=nvidia&logoColor=FAFAF8)
+
+</div>
 
 ---
 
